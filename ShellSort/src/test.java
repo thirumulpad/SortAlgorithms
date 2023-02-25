@@ -3,7 +3,7 @@ public class test {
     public static void main(String[] args) {
         int[] array = {22, 8, -15, 45, 75, -22, 3};
         print(array);
-        SelectionSortImpl sortimpl = new SelectionSortImpl();
+        ShellSortImpl sortimpl = new ShellSortImpl();
         sortimpl.sort(array);
         System.out.println("***************");
         print(array);

@@ -8,8 +8,8 @@ public class BubbleSortImpl {
             //compare the elements from left to right 2 at a time
             for (int i = 0; i < lastUnsortedIndex; i++) {
                 //if left element is greater than right element, swap
-                if(array[i] > array[i+1])
-                    swap(array, i, i+1);
+                if (array[i] > array[i + 1])
+                    swap(array, i, i + 1);
             }
         }
 
